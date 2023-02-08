@@ -34,7 +34,7 @@ function App() {
 
       const signer = provider.getSigner();
       const contract = ethers.Contract(contractAdd, contractabi, signer);
-      contract.addName("PushMore");
+      contract.addName("PushName");
 
         function addName() {}
       }
